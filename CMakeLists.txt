@@ -3,6 +3,10 @@ project(Hello_World VERSION 1.0)
 
 add_subdirectory(say_hello)
 add_subdirectory(hello-exe)
+add_subdirectory(test)
+
+enable_testing()
+add_test(NAME MyTest COMMAND Test)
 
 set(SHOW_NAME "This is cool")
 set(GET_NAME "This is cool")

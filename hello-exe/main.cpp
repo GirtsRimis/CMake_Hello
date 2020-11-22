@@ -4,5 +4,6 @@
 int main()
 {
     hello::print_hello();
+    std::cout << hello::sum(1, 1) << "\n";
     return 0;
 }
