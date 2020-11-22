@@ -3,5 +3,5 @@
 
 void hello::print_hello()
 {
-    std::cout << "Hello World!";
+    std::cout << "Hello World! Version " << SAY_HELLO_VERSION << "\n";
 }
